@@ -4,11 +4,11 @@ ESECUZIONE
 - Secondo parametro: il numero di parole più presenti da visualizzare a video   
 
 WINDOWS
-=======
+-------
 statisticheparole.exe testo.txt 10  
 
 LINUX
-=====
+-----
 ./statisticheparole.exe testo.txt 10  
 
 EXPORT
