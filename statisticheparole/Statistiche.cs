@@ -33,6 +33,10 @@ namespace statisticheparole
 			parole.Ordina();
 			Console.WriteLine("OK");
 
+			Console.Write("CALCOLO PERCENTUALI: ");
+			parole.Percentuali();
+			Console.WriteLine("OK");
+
 			Console.Write("EXPORT: ");
 			parole.Esporta(filename);
 			Console.WriteLine("OK");
@@ -40,6 +44,7 @@ namespace statisticheparole
 			Console.WriteLine("LISTA "+num+" PAROLE");
 			parole.Visualizza(num);
 			Console.WriteLine("FINE LISTA");
+			Console.WriteLine("TOTALE PAROLE DIFFERENTI: " + this.parole.getParoleDifferenti());
 		}
 
 		void PulisciTesto()

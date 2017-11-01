@@ -15,6 +15,11 @@ namespace statisticheparole
 			this.parole = new List<Parola>();
 		}
 
+		public string getParoleDifferenti()
+		{
+			return this.parole.Count.ToString();
+		}
+
 		public void Aggiungi(Parola parola)
 		{
 			// Cerca se la parola esiste già
@@ -38,7 +43,7 @@ namespace statisticheparole
 			{
 				File.Create(filePath).Close();
 			}
-			string delimiter = ",";
+			string delimiter = ";";
 			int length = this.parole.Count;
 			using (System.IO.TextWriter writer = File.CreateText(filePath))
 			{
@@ -60,7 +65,7 @@ namespace statisticheparole
 				}
 			}
 
-			Console.WriteLine("TOTALE PAROLE: " + this.getTotaleParole());
+			Console.WriteLine("TOTALE PAROLE ANALIZZATE: " + this.getTotaleParole());
 		}
 
 		public void Ordina()
@@ -76,6 +81,11 @@ namespace statisticheparole
 		public int getTotaleParole()
 		{
 			return this.totaleparole;
+		}
+
+		public void Percentuali()
+		{
+			this.parole.ForEach(i => i.CalcolaPercentuale(this.totaleparole));
 		}
 	}
 }
