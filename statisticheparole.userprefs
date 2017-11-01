@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{916B7C30-46C5-45F8-AF81-E648A9F6FD85}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="statisticheparole/Statistiche.cs">
+    <Files>
+      <File FileName="statisticheparole/Statistiche.cs" Line="41" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.statisticheparole PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
