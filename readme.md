@@ -10,6 +10,10 @@ ESECUZIONE
 - Primo parametro: nome del file da processare  
 - Secondo parametro: il numero di parole più presenti da visualizzare a video   
 
+Il file si trova in questa posizione:  
+statisticheparole/bin/Debug/statisticheparole.exe  
+cliccare su download e poi eseguire
+
 WINDOWS
 -------
 statisticheparole.exe testo.txt 10  
