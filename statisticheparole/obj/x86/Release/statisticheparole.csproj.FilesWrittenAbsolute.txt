@@ -1,0 +1,3 @@
+/home/archemi/Projects/statisticheparole/statisticheparole/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/archemi/Projects/statisticheparole/statisticheparole/bin/Release/statisticheparole.exe
+/home/archemi/Projects/statisticheparole/statisticheparole/obj/x86/Release/statisticheparole.exe
