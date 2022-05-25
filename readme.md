@@ -3,7 +3,7 @@ PAROLE DI UN TESTO
 
 Calcola le parole di un testo ed esporta i risultati in un file csv 
 
-[![disegno.svg.png](https://s1.postimg.org/3rprrwykzz/disegno.svg.png)](https://postimg.org/image/68c06u5gwb/)
+[![disegno.svg.png](https://github.com/archistico/StatisticheParole/raw/master/risultati/disegno.svg.png)
 
 ESECUZIONE
 ==========
